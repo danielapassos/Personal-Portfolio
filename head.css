@@ -1,0 +1,78 @@
+/*  head and body */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.tilda-bar::-webkit-scrollbar,
+.cmd-dock::-webkit-scrollbar,
+.dotos-filter-div::-webkit-scrollbar,
+.takeout-express-overview-screen::-webkit-scrollbar,
+.takeout-trivia-overview-screen::-webkit-scrollbar,
+.takeout-trivia-checkout::-webkit-scrollbar,
+.takeout-trivia-launch-game::-webkit-scrollbar,
+.takeout-trivia-game::-webkit-scrollbar,
+.takeout-leaderboard-ending::-webkit-scrollbar,
+.availability-overscroll::-webkit-scrollbar,
+.tile.sm.flex-center.relative.availability::-webkit-scrollbar,
+.al-confirm-booking::-webkit-scrollbar,
+.availability-overscroll-2::-webkit-scrollbar {
+  display: none;
+}
+
+.tilda-bar,
+.cmd-dock,
+.dotos-filter-div,
+.takeout-express-overview-screen,
+.takeout-trivia-overview-screen,
+.takeout-trivia-checkout,
+.takeout-trivia-launch-game,
+.takeout-trivia-game,
+.takeout-leaderboard-ending,
+.availability-overscroll,
+.tile.sm.flex-center.relative.availability,
+.al-confirm-booking,
+.availability-overscroll-2 {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tilda-bar,
+.cmd-dock,
+.dotos-filter-div,
+.takeout-express-overview-screen,
+.takeout-trivia-overview-screen,
+.takeout-trivia-checkout,
+.takeout-trivia-launch-game,
+.takeout-trivia-game,
+.takeout-leaderboard-ending,
+.availability-overscroll,
+.tile.sm.flex-center.relative.availability,
+.al-confirm-booking,
+.availability-overscroll-2 {
+  -webkit-overflow-scrolling: touch;
+}
+
+.arch-gradient {
+  animation: animateBg 1s linear infinite;
+  background-image: linear-gradient(
+    0deg,
+    #ff6570,
+    #ff842a,
+    #19d175,
+    #4697f6,
+    #7646ff,
+    #ff6570,
+    #ff842a
+  );
+  background-size: 100% 600%;
+}
+
+@keyframes animateBg {
+  0% {
+    background-position: 0% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
